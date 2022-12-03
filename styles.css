@@ -1,6 +1,6 @@
 body {
   font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #1f2937;    
+  margin: 0;
 }
 
 ul {
@@ -13,8 +13,11 @@ a {
   text-decoration: none;    
 }
 
+.top-background{
+  background-color: #1f2937;   
+}
+  
 .top-wrap {
-  color: white;  
   margin: 0 10%;   
 }
 
@@ -22,13 +25,11 @@ a {
   font-size: 24px;
   color: white;
   font-weight: bold;
- 
 }
 
 .top ul {
   font-size: 18px;  
-  display: flex;
-   
+  display: flex;  
 }
 
 .top li {
@@ -47,6 +48,7 @@ a {
 }
 
 .header-center {
+  color: white;  
   font-size: 48px;
   font-weight: bolder;   
 }
@@ -54,6 +56,7 @@ a {
 .header-sub {
   font-size: 18px;  
   color: #e5e7eb;
+  max-width: 600px;
 
 }
 
@@ -86,6 +89,52 @@ button.signup {
 .box-wrap {
   display: flex;
   justify-content: space-between;
-  margin: 200px auto;
   align-items: center;
+  padding: 200px 0;
 }
+
+.information-background {
+  background-color: white;   
+}
+
+.information-wrap {
+  margin: 0 10%; 
+}
+
+.information {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 20px; 
+}
+
+.infbox {
+  height: 180px;  
+  width: 180px;
+  border: 4px solid rgb(0, 90, 173);
+  background-color: white;
+  border-radius: 20px;
+  flex-shrink: 0;
+}  
+
+.infmainbox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  
+
+}
+.infwhole {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
+
+}
+.infmainbox p {
+width: 180px;
+text-align: center; 
+  
+ }
