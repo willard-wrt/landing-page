@@ -71,6 +71,10 @@ button.signup {
   color: white;
   font-weight: bold;
 }
+
+button.signup:hover {
+  background-color: rgb(32, 59, 141);
+}
   
 
 .box-right {
@@ -175,6 +179,7 @@ max-width: 1800px;
 
  }
 
+
  p.author {
   font-weight: bold;
   font-size: 20px;
@@ -217,7 +222,7 @@ p.second {
 
 }
 
- .contact-container {
+.contact-container {
 
   display: flex;
   justify-content: space-between;
@@ -234,6 +239,54 @@ p.second {
   background-color: rgb(83, 114, 209);
   color: white;
   border-radius: 10px;
-
   }
 
+.contact-button:hover {
+  background-color: rgb(32, 59, 141);
+  }
+
+.quote-p p:nth-child(1):hover {
+  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+  
+}
+
+.copyright {
+  background-color: #1f2937;
+  color: white;
+  font-size: 22px;
+  text-align: center; 
+  padding: 25px;
+}
+
+.copyright p {
+  margin: 10px;
+}
+
+p.edu {
+  font-size: 18px;
+}
+
+
+  #shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+}
+
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
