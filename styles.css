@@ -184,10 +184,56 @@ max-width: 1800px;
 
  }
 
- .test { 
+ .author-box { 
   width: 900px;  
   display: flex;
   justify-content: end;
   margin: -0px auto;
   background-color: #e5e7eb;
  }
+
+ .contact {
+  
+  justify-content: center;
+  align-items: center;
+  padding: 100px 500px;
+
+}
+
+.contact-left {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.contact-left p {
+  margin: 15px;
+}
+
+p.second {
+  color: #e5e7eb;
+  font-size: 18px;
+
+}
+
+ .contact-container {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(83, 114, 209);
+  border-radius: 20px;
+  padding: 70px 100px;
+  }
+
+.contact-button {
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid white;
+  background-color: rgb(83, 114, 209);
+  color: white;
+  border-radius: 10px;
+
+  }
+
